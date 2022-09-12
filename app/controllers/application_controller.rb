@@ -4,7 +4,10 @@ class ApplicationController < Sinatra::Base
   # Add your routes here
 
   #get 
-  
+  get "/books" do
+    book = Book.all
+    book.to_json
+  end
 
   # post
 
