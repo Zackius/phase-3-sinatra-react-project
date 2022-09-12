@@ -1,2 +1,2 @@
-class Books < ActiveRecord::Base
+class Book < ActiveRecord::Base
 end
