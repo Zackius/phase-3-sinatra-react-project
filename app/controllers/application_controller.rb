@@ -36,8 +36,7 @@ patch '/books/:id' do
 book = Book.find(params[:id])
 book.update(
   books_name:params[:books_name],
-  number_pages:params[:number_pages],
-  author:params[:author],
+
   cost:params[:cost],
   book_image:params[:book_image]
 )
