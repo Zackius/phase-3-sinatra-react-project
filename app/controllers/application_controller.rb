@@ -38,7 +38,6 @@ book.update(
   books_name:params[:books_name],
   number_pages:params[:number_pages],
   author:params[:author],
-  year_of_realese:params[:year_of_realese],
   cost:params[:cost],
   book_image:params[:book_image]
 )
